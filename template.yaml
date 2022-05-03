@@ -18,5 +18,5 @@ Resources:
       CodeUri: functions/
       Handler: app.lambda_handler
       Runtime: python3.9
-      MemorySize: 5000
+      MemorySize: 3000
       Timeout: 700
