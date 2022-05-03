@@ -19,7 +19,7 @@ def send_to_ecs(ecs_config: dict, payload: dict) -> dict:
         platformVersion='1.3.0',
         networkConfiguration={
                 'awsvpcConfiguration': {
-                    'subnets': ['', ''],
+                    'subnets': ['subnet-4caec372', 'subnet-8d9d74c0'],
                     'assignPublicIp': 'ENABLED'
                 }
             },
